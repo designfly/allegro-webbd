@@ -1,0 +1,320 @@
+/* General */
+body {
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  color: #333333;
+  font-size: 18px;
+}
+b {
+  font-weight: bold;
+}
+h1 {
+  font-size: 30px;
+  color: #041e40;
+}
+/* Typography */
+/* Wraper */
+.wraper {
+  width: 960px;
+  min-height: 3000px;
+  background-color: #ffffff;
+  float: right;
+}
+/* Header */
+.navi {
+  font-size: 24px;
+  float: left;
+  padding: 88px 0px 0px 88px;
+}
+.navi li {
+  float: left;
+  text-decoration: none;
+  padding-right: 50px;
+  list-style: none;
+}
+.navi li a {
+  color: #041e40;
+  text-decoration: none;
+}
+.navi li a:hover {
+  border-bottom: 3px solid rgba(51, 51, 51, 0.42);
+}
+.logo {
+  background-image: url(../img/logo.png);
+  width: 99px;
+  height: 99px;
+  float: right;
+  margin: 40px 52px 0px 0px;
+}
+/* Content */
+.slide2 {
+  background-image: url(../img/images/slide_02.png);
+  width: 960px;
+  height: 451px;
+  float: right;
+  margin-top: 20px;
+}
+.slide2 p {
+  font-size: 30px;
+  padding: 134px 0px 0px 68px;
+}
+.slide2 h3 {
+  font-size: 30px;
+  padding: 134px 0px 0px 68px;
+}
+.slide2 h4 {
+  font-size: 40px;
+}
+.slide1 {
+  background: url(../img/images/slide_01.png);
+  width: 76px;
+  height: 451px;
+  float: left;
+  margin-top: 165px;
+}
+.global {
+  width: 1036px;
+  margin: 0 auto;
+  padding-right: 76px;
+}
+.content {
+  width: 900px;
+  height: auto;
+  margin-top: 50%;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.content p {
+  font-size: 24px;
+}
+.content li {
+  list-style-image: url(../img/dot.png);
+  padding-left: 10px;
+  line-height: 30px;
+}
+.content span {
+  line-height: 20px;
+  font-size: 24px;
+}
+.content span b {
+  font-size: 30px;
+}
+.content span img {
+  padding: 10px 0px 0px 20px;
+}
+.content .price img {
+  margin: 20px 0px 0px 150px;
+}
+.icons {
+  width: 500px;
+  height: 55px;
+  margin-left: 20px;
+}
+.icons img {
+  float: left;
+  padding-right: 10px;
+}
+.box {
+  width: 100%;
+  height: 97px;
+  background-color: #d03222;
+  color: #ffffff;
+  margin-top: 40px;
+  padding-top: 35px;
+  text-align: center;
+}
+.play {
+  background-image: url(../img/play.png);
+  width: 188px;
+  height: 158px;
+  float: right;
+}
+.fbpr {
+  background-image: url(../img/fb_profile.png);
+  width: 554px;
+  height: 250px;
+  float: left;
+  margin-left: 150px;
+}
+.plan {
+  width: 100%px;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 250px;
+}
+.plan p {
+  font-size: 24px;
+  padding-left: 40px;
+}
+.plan small {
+  font-size: 14px;
+  color: #232b2d;
+}
+.plan li {
+  list-style-image: url(../img/dot.png);
+  padding-left: 10px;
+  line-height: 30px;
+}
+.plan span {
+  line-height: 20px;
+  font-size: 24px;
+}
+.plan span b {
+  font-size: 30px;
+}
+.plan span img {
+  padding: 10px 0px 0px 20px;
+}
+.plan .tab1 {
+  width: 100%;
+  height: 110px;
+  background-color: #ededed;
+}
+.plan .tab1 .blok {
+  width: 233px;
+  height: 100%;
+  border-right: solid 2px #d3d3d3;
+  float: left;
+}
+.plan .tab1 .blok .dot {
+  background-image: url(../img/dot2.png);
+  width: 34px;
+  height: 34px;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+.plan .tab1 .blok .dot span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 25px  0px 0px 12px;
+}
+.plan .tab1 .blok img {
+  width: 70px;
+  height: 60px;
+  padding-left: 80px;
+}
+.plan .tab1 .blok-min {
+  width: 233px;
+  height: 50px;
+  border-right: solid 2px #ededed;
+  float: left;
+  background-color: #ededed;
+  text-align: center;
+  line-height: 10px;
+}
+.plan .tab1 .blok-min span {
+  color: #232b2d;
+  font-size: 13px;
+}
+.plan .tab1 .blok-min span b {
+  font-weight: bold;
+  color: #ff5a01;
+  font-size: 14px;
+}
+.plan .pasek {
+  width: 100%;
+  height: 33px;
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, 0.65) 5%, rgba(135, 135, 135, 0.65) 23%, rgba(51, 51, 51, 0.65) 39%, rgba(51, 51, 51, 0.65) 44%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(5%, rgba(229, 229, 229, 0.65)), color-stop(23%, rgba(135, 135, 135, 0.65)), color-stop(39%, rgba(51, 51, 51, 0.65)), color-stop(44%, rgba(51, 51, 51, 0.65)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, 0.65) 5%, rgba(135, 135, 135, 0.65) 23%, rgba(51, 51, 51, 0.65) 39%, rgba(51, 51, 51, 0.65) 44%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, 0.65) 5%, rgba(135, 135, 135, 0.65) 23%, rgba(51, 51, 51, 0.65) 39%, rgba(51, 51, 51, 0.65) 44%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, 0.65) 5%, rgba(135, 135, 135, 0.65) 23%, rgba(51, 51, 51, 0.65) 39%, rgba(51, 51, 51, 0.65) 44%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, 0.65) 5%, rgba(135, 135, 135, 0.65) 23%, rgba(51, 51, 51, 0.65) 39%, rgba(51, 51, 51, 0.65) 44%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#a6333333', GradientType=1);
+  /* IE6-9 */
+  text-align: center;
+  margin-top: 50px;
+}
+.plan .pasek .blok {
+  width: 470px;
+  height: 33px;
+  float: left;
+}
+.plan .pasek .blok span {
+  color: #ffffff;
+  font-size: 13px;
+}
+.plan .pasek2 {
+  width: 100%;
+  height: 25px;
+  background-color: #232b2d;
+  text-align: center;
+}
+.plan .pasek2 span {
+  color: #ffffff;
+  font-size: 13px;
+}
+.plan .section1 {
+  width: 100%;
+  height: auto;
+}
+.plan .section1 .box {
+  width: 30%;
+  height: 215px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #232b2d;
+}
+.plan .section2 {
+  width: 100%;
+  height: auto;
+}
+.plan .section2 .box {
+  width: 30%;
+  height: 215px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-top: 10px;
+  background-color: #232b2d;
+}
+/* Footer */
+footer {
+  width: 100%;
+  height: 300px;
+  clear: both;
+}
+footer .girl {
+  background-image: url(../img/girl.png);
+  width: 276px;
+  height: 203px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+footer .pc {
+  background-image: url(../img/pc.png);
+  width: 485px;
+  height: 287px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+footer .copyright {
+  width: 100%;
+  height: 23px;
+  m-top: 20px;
+  clear: both;
+  text-align: center;
+}
+footer .copyright small {
+  font-size: 11px;
+  color: #ffffff;
+}
+.designfly {
+  width: 100%;
+  height: 22px;
+  background-color: #232b2d;
+}
